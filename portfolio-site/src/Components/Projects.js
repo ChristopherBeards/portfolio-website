@@ -16,6 +16,7 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return(
         <div className="projects-grid">
+        
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
               <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.mxcursos.com/image/cache/data/Thumbs2017/html_css-cr-292x175.png)'}}>HTML/CSS Project #1</CardTitle>
               <CardText>Some information about this project</CardText>
@@ -24,10 +25,8 @@ class Projects extends Component {
               <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share"></IconButton>
-            </CardMenu>
           </Card>
+
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
               <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.mxcursos.com/image/cache/data/Thumbs2017/html_css-cr-292x175.png)'}}>HTML/CSS Project #1</CardTitle>
               <CardText>Some information about this project</CardText>
@@ -36,10 +35,8 @@ class Projects extends Component {
               <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share"></IconButton>
-            </CardMenu>
           </Card>
+
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
               <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.mxcursos.com/image/cache/data/Thumbs2017/html_css-cr-292x175.png)'}}>HTML/CSS Project #1</CardTitle>
               <CardText>Some information about this project</CardText>
@@ -48,35 +45,153 @@ class Projects extends Component {
               <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share"></IconButton>
-            </CardMenu>
           </Card>
+          
         </div>
       )
     } else if (this.state.activeTab === 1) {
       return (
-        <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://lorecentral.b-cdn.net/wp-content/uploads/2017/11/Javascript-shield.png)'}}></CardTitle>
-        </Card>
+        <div className="projects-grid">
+        
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.mxcursos.com/image/cache/data/Thumbs2017/html_css-cr-292x175.png)'}}>HTML/CSS Project #1</CardTitle>
+              <CardText>Some information about this project</CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.mxcursos.com/image/cache/data/Thumbs2017/html_css-cr-292x175.png)'}}>HTML/CSS Project #1</CardTitle>
+              <CardText>Some information about this project</CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.mxcursos.com/image/cache/data/Thumbs2017/html_css-cr-292x175.png)'}}>HTML/CSS Project #1</CardTitle>
+              <CardText>Some information about this project</CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+          </Card>
+          
+        </div>
       )
     } else if (this.state.activeTab === 2) {
       return (
-        <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.mxcursos.com/image/cache/data/Thumbs2017/html_css-cr-292x175.png)'}}></CardTitle>
-        </Card>
+        <div className="projects-grid">
+        
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.mxcursos.com/image/cache/data/Thumbs2017/html_css-cr-292x175.png)'}}>HTML/CSS Project #1</CardTitle>
+              <CardText>Some information about this project</CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.mxcursos.com/image/cache/data/Thumbs2017/html_css-cr-292x175.png)'}}>HTML/CSS Project #1</CardTitle>
+              <CardText>Some information about this project</CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.mxcursos.com/image/cache/data/Thumbs2017/html_css-cr-292x175.png)'}}>HTML/CSS Project #1</CardTitle>
+              <CardText>Some information about this project</CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+          </Card>
+          
+        </div>
       )
     } else if (this.state.activeTab === 3) {
       return (
-        <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.mxcursos.com/image/cache/data/Thumbs2017/html_css-cr-292x175.png)'}}></CardTitle>
-        </Card>
+        <div className="projects-grid">
+        
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.mxcursos.com/image/cache/data/Thumbs2017/html_css-cr-292x175.png)'}}>HTML/CSS Project #1</CardTitle>
+              <CardText>Some information about this project</CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.mxcursos.com/image/cache/data/Thumbs2017/html_css-cr-292x175.png)'}}>HTML/CSS Project #1</CardTitle>
+              <CardText>Some information about this project</CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.mxcursos.com/image/cache/data/Thumbs2017/html_css-cr-292x175.png)'}}>HTML/CSS Project #1</CardTitle>
+              <CardText>Some information about this project</CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+          </Card>
+          
+        </div>
       )
     } else if (this.state.activeTab === 4) {
       return (
-        <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.mxcursos.com/image/cache/data/Thumbs2017/html_css-cr-292x175.png)'}}></CardTitle>
-        </Card>
+        <div className="projects-grid">
+        
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.mxcursos.com/image/cache/data/Thumbs2017/html_css-cr-292x175.png)'}}>HTML/CSS Project #1</CardTitle>
+              <CardText>Some information about this project</CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.mxcursos.com/image/cache/data/Thumbs2017/html_css-cr-292x175.png)'}}>HTML/CSS Project #1</CardTitle>
+              <CardText>Some information about this project</CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.mxcursos.com/image/cache/data/Thumbs2017/html_css-cr-292x175.png)'}}>HTML/CSS Project #1</CardTitle>
+              <CardText>Some information about this project</CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+          </Card>
+          
+        </div>
       )
     }
   }
